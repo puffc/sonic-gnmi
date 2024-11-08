@@ -46,8 +46,7 @@ stages:
     displayName: "build"
     timeoutInMinutes: 60
 
-    pool:
-      vmImage: ubuntu-20.04
+    pool: "mypool"
 
     variables:
       DIFF_COVER_CHECK_THRESHOLD: 80

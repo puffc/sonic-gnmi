@@ -30,13 +30,13 @@ resources:
   repositories:
   - repository: sonic-mgmt-common
     type: github
-    name: sonic-net/sonic-mgmt-common
-    endpoint: sonic-net
+    name: puffc/sonic-mgmt-common
+    endpoint: puffc
     ref: refs/heads/$(BUILD_BRANCH)
   - repository: sonic-swss-common
     type: github
-    name: sonic-net/sonic-swss-common
-    endpoint: sonic-net
+    name: puffc/sonic-swss-common
+    endpoint: puffc
     ref: refs/heads/$(BUILD_BRANCH)
 
 stages:
